@@ -13,21 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Matrix IO">
+      <UniqueIdentifier>{8f714be1-b9fa-44b4-81d7-f4f16c93a791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matrix IO">
+      <UniqueIdentifier>{32feab1c-710a-4f70-9a96-582d29d7e2f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="variant_27.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasks_solutions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task_execution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_input.cpp">
+      <Filter>Source Files\Matrix IO</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_output.cpp">
+      <Filter>Source Files\Matrix IO</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStruct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="matrixIO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="tasks.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task_execution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_input.h">
+      <Filter>Header Files\Matrix IO</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_output.h">
+      <Filter>Header Files\Matrix IO</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

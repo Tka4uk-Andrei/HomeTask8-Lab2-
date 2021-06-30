@@ -142,13 +142,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="matrixIO.h">
-      <FileType>CppCode</FileType>
-    </ClInclude>
+    <ClInclude Include="Errors.h" />
+    <ClInclude Include="matrix_input.h" />
+    <ClInclude Include="matrix_output.h" />
     <ClInclude Include="tasks.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClCompile Include="matrix_input.cpp" />
+    <ClCompile Include="matrix_output.cpp" />
+    <ClCompile Include="tasks_solutions.cpp" />
+    <ClCompile Include="task_execution.cpp" />
     <ClCompile Include="variant_27.cpp" />
+    <ClInclude Include="task_execution.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStruct.h" />
