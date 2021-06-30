@@ -1,11 +1,11 @@
-#pragma once
+п»ї#pragma once
 
 /// <summary>
-/// Ошибка формата размеров матрицы
+/// РћС€РёР±РєР° С„РѕСЂРјР°С‚Р° СЂР°Р·РјРµСЂРѕРІ РјР°С‚СЂРёС†С‹
 /// </summary>
 std::string const MATRIX_SIZE_ERR = "Matrix width and height must be positive integers.";
 
 /// <summary>
-/// Ошибка формата значений матрицы
+/// РћС€РёР±РєР° С„РѕСЂРјР°С‚Р° Р·РЅР°С‡РµРЅРёР№ РјР°С‚СЂРёС†С‹
 /// </summary>
 std::string const MATRIX_VALUES_ERR = "Matrix must contain only integers.";

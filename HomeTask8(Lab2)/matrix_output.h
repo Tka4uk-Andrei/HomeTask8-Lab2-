@@ -1,16 +1,16 @@
-#include <iostream>
+п»ї#include <iostream>
 #include "DataStruct.h"
 
 /// <summary>
-/// Вывод матрицы
+/// Р’С‹РІРѕРґ РјР°С‚СЂРёС†С‹
 /// </summary>
-/// <param name="matrix">Матрица из которой берутся данные</param>
-/// <param name="ostream">Поток в который выводяться данные</param>
+/// <param name="matrix">РњР°С‚СЂРёС†Р° РёР· РєРѕС‚РѕСЂРѕР№ Р±РµСЂСѓС‚СЃСЏ РґР°РЅРЅС‹Рµ</param>
+/// <param name="ostream">РџРѕС‚РѕРє РІ РєРѕС‚РѕСЂС‹Р№ РІС‹РІРѕРґСЏС‚СЊСЃСЏ РґР°РЅРЅС‹Рµ</param>
 void PrintMatrix(Matrix matrix, std::ostream& ostream);
 
 /// <summary>
-/// Вывод размеров матрицы
+/// Р’С‹РІРѕРґ СЂР°Р·РјРµСЂРѕРІ РјР°С‚СЂРёС†С‹
 /// </summary>
-/// <param name="matrix">Матрица из которой берутся данные</param>
-/// <param name="ostream">Поток в который выводяться данные</param>
+/// <param name="matrix">РњР°С‚СЂРёС†Р° РёР· РєРѕС‚РѕСЂРѕР№ Р±РµСЂСѓС‚СЃСЏ РґР°РЅРЅС‹Рµ</param>
+/// <param name="ostream">РџРѕС‚РѕРє РІ РєРѕС‚РѕСЂС‹Р№ РІС‹РІРѕРґСЏС‚СЊСЃСЏ РґР°РЅРЅС‹Рµ</param>
 void PrintMatrixParam(Matrix matrix, std::ostream& output);
